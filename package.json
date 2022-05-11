@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/andrea-konova/gulp-2022#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.3"
   }
 }
