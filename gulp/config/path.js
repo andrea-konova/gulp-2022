@@ -9,11 +9,14 @@ export const path = {
   build: {
     js: `${buildFolder}/js/`,
     css: `${buildFolder}/css/`,
+    images: `${buildFolder}/img/`,
     html: `${buildFolder}/`,
     files: `${buildFolder}/files/`
   },
   src: {
     js: `${srcFolder}/js/app.js`,
+    images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
+    svg: `${srcFolder}/img/**/*.svg`,
     scss: `${srcFolder}/scss/style.scss`,
     html: `${srcFolder}/*.html`, // pug
     files: `${srcFolder}/files/**/*.*`,
@@ -21,6 +24,7 @@ export const path = {
   watch: {
     js: `${srcFolder}/js/**/*.js`,
     scss: `${srcFolder}/scss/**/*.scss`,
+    images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg,ico}`,
     html: `${srcFolder}/**/*.html`, // pug
     files: `${srcFolder}/files/**/*.*`,
   },
