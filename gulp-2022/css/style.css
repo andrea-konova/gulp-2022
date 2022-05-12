@@ -1,0 +1,12 @@
+.no-webp body {
+  background: url("../img/Turkey.jpg") 0 0 no-repeat; }
+
+body {
+  background-color: #000;
+}
+
+body span {
+  color: red;
+}
+
+.webp body { background: url(../img/Turkey.webp) 0 0 no-repeat; }
