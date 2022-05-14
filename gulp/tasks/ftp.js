@@ -1,4 +1,4 @@
-import { configFTP } from "../config/ftp/js";
+import { configFTP } from "../config/ftp.js";
 import vinylFTP from "vinyl-ftp";
 import util from "gulp-util";
 
@@ -12,5 +12,5 @@ export const ftp = () => {
         message: "Error: <%= error.message %>"
       }))
     )
-    .pipe(ftp.ftpConnect.dest(`/${app.path.ftp}/${app.path.rootFolder}`));
+    .pipe(ftpConnect.dest(`/${app.path.ftp}/${app.path.rootFolder}`));
 }
